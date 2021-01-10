@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blood Bank</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style1.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="file:///H:/Blood%20Bank/bbindex.html"><img src="img/2.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button> &nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				
+				<li class="nav-item active">
+					<a class="nav-link" href="bbindex.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="login.html">Login</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="signup.html">Sign up</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Help</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+	<p align="right"><a href="#">want to be a donor?</a></p>
+<br>
+<!-- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+    	<div class="carousel-item active">
+    		<center><img src="img/s3.png"></center>
+    	</div>
+    	<div class="carousel-item">
+    		<center><img src="img/s2.jpg"></center>
+    	</div>
+    	<div class="carousel-item">
+    		<center><img src="img/s3.png"></center>
+    	</div>
+    </div>
+</div>
+<br>
+<!-- Intro Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h2 class="display-4">Donate Blood, Save Life</h2>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead">“The Blood You Donate Gives Someone Another Chance At Life. One Day That Someone May Be A Close Relative, A Friend, A Loved One—Or Even You.”</p>
+	</div>
+</div>
+</div>
+<br>
+<!---info--->
+<div class="container-fluid padding">
+	<div class="row padding">
+		
+		<div class="col-lg-6">
+    	<div class="card">
+			<div class="card-body">
+			<a href="btips1.html"><img src="img/bfacts.png"></a>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-6">
+    	<div class="card">
+			<div class="card-body">
+				<ol class="breadcrumb my-4">
+					    <li class="breadcrumb-item active"><B>Blood Facts</B></li>
+					</ol>
+					<br>
+							<p>-Blood is the life-maintaining fluid that circulates through the body's heart, arteries, veins and capillaries.</p>
+							<p>-Blood carries to the body nourishment, electrolytes, hormones, vitamins, antibodies, heat, and oxygen.</p>
+							<p>-Blood carries away from the body waste matter and carbon dioxide.
+							Blood fights against infection and helps heal wounds, keeping you healthy.
+							Blood makes up about 7% of your body's weight.</p>
+							<p>-A newborn baby has about one cup of blood in his or her body.</p>
+							<p>-White blood cells are the body's primary defence against infection.</p>
+							<p>-Granulocytes, a type of white blood cell, roll along blood vessel walls to search and destroy bacteria.</p>
+							<p>-Red blood cells carry oxygen to the body's organs and tissues.</p>
+							<p>-There are about one billion red blood cells in two to three drops of blood.</p>
+							<p>-Red blood cells live about 120 days in the circulatory system.</p>
+							<p>-Blood platelets help clotting and give those with leukemia and other cancers a chance to live.</p>
+
+			</div>
+		</div>
+		</div>
+</div>
+
+</div>
+
+<!-- Selection Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h5 class="display-4">Search For Donor</h5>
+		<hr>
+	</div>
+	
+</div>
+
+
+<!-- Card -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-lg-6">
+		<div class="card">
+			<div class="card-body">
+			<div class="modal-dialog text-center">
+	<div class="col-md-12 main-section">
+		<div class="modal-content">
+
+			<div class="col-12 user-img">
+				<img src="img/user.jpg">
+			</div>
+                    <center><h3><font color="ffffff"><B>Search for Donor</B></font></h3></center>
+			<div class="col-12 form-input">
+				<form>
+					 <div class="form-group">
+  							<select class="form-control" id="city">
+  								<option>Select the city</option>
+    							<option>Nagpur</option>
+    							<option>Pune</option>
+    							<option>Mumbai</option>
+    							<option>Amravti</option>
+  							</select>
+					</div><br>
+					 <div class="form-group">
+  							<select class="form-control" id="bg">
+  								<option>Select the blood group</option>
+    							<option>A+</option>
+    							<option>B+</option>
+    							<option>AB+</option>
+    							<option>O+</option>
+    							<option>A-</option>
+    							<option>B-</option>
+    							<option>AB-</option>
+    							<option>O-</option>
+  							</select>
+					</div> 
+
+					<button type="submit" class="btn btn-primary btn-lg">Search</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+	
+		</div>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div class="card">
+			<div class="card-body">
+				<div class="modal-dialog text-center">
+	<div class="col-md-12 main-section">
+		<div class="modal-content">
+
+			<div class="col-12 user-img">
+				<img src="img/hos.png">
+			</div>
+				<center><h3><font color="ffffff"><B>Search for Hospital</B></font></h3></center>
+			<div class="col-12 form-input">
+				<form>
+					 <div class="form-group">
+  							<select class="form-control" id="city">
+  								<option>Select the city</option>
+    							<option>Nagpur</option>
+    							<option>Pune</option>
+    							<option>Mumbai</option>
+    							<option>Amravti</option>
+  							</select>
+					</div><br>
+					 <div class="form-group">
+  							<select class="form-control" id="bg">
+  								<option>Select the blood group</option>
+    							<option>A+</option>
+    							<option>B+</option>
+    							<option>AB+</option>
+    							<option>O+</option>
+    							<option>A-</option>
+    							<option>B-</option>
+    							<option>AB-</option>
+    							<option>O-</option>
+  							</select>
+					</div> 
+
+					<button type="submit" class="btn btn-primary btn-lg">Search</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+<hr class="my-4">
+</div>
+<br>
+<br>
+<!-- Footer -->
+
+<footer>
+	<div class="container-fluid padding">
+	<div class="row text-center">
+		<div class="col-md-4">
+			<img src="img/2.png">
+			<hr class="light">
+			<p>555-555-5555</p>
+			<p>bloodbank@mail.com</p>
+			<p>Nagpur, Maharashtra</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h2>Current cities</h2>
+			<hr class="light">
+			<p>Nagpur, 0712</p>
+			<p>Pune, 020</p>
+			<p>Mumbai, 022</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h2>Developed by</h2>
+			<hr class="light">
+			<p>Lokesh Sharma</p>
+			<p>Nishant Aochar</p>
+			<p>Rajat Gaidhane</p>
+			<p>Vikas Sawarkar</p>
+		</div>
+	</div>
+		<div>
+			<hr class="light">
+			<h5><center>&copy; bloodbank.com</center></h5>
+		</div>
+	</div>
+</footer>		
+
+
+
+</body>
+</html>
